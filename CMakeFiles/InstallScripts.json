@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/toshn/Documenti/uni/RedPropulsion/LoRaX/LoRaX/cmake_install.cmake",
+		"/home/toshn/Documenti/uni/RedPropulsion/LoRaX/LoRaX/cmake/stm32cubemx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
