@@ -1,0 +1,7 @@
+/* NUCLEO-WL55JC1: FE_CTRL3 enables the RF switch in both RX and TX.
+ * FE_CTRL1/2, HP PA routing and TCXO are provided by the Zephyr board DTS.
+ * The generic SX126x driver switches this GPIO on/off with the antenna.
+ */
+&lora {
+    antenna-enable-gpios = <&gpioc 3 GPIO_ACTIVE_HIGH>;
+};
