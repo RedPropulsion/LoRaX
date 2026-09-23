@@ -1,0 +1,18 @@
+# Build directories (including build-wl55-lora if built inside this repository)
+build/
+build-*/
+
+# Generated CMake/Ninja files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+build.ninja
+.ninja_deps
+.ninja_log
+
+# Local caches and Python environments
+.cache/
+.venv/
+__pycache__/
+*.pyc
