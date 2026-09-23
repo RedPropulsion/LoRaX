@@ -1,8 +1,8 @@
-# LoRaX — risponditore LoRa per NUCLEO-WL55JC1
+# LoRaX - risponditore LoRa per NUCLEO-WL55JC1
 
 Firmware Zephyr per la seconda radio della demo ObelICS / Bright Night.
 Riceve quattro byte ASCII `PING`, attende 200 ms, trasmette quattro byte `PONG`
-e torna in ricezione. Non usa LoRaWAN né un gateway.
+e torna in ricezione.
 
 La comunicazione bidirezionale con lo shield SX1261 di ObelICS è stata verificata
 sulle schede. I comandi LED tra Idefix e ObelICS viaggiano separatamente su
