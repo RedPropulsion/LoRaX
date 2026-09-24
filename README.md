@@ -55,6 +55,8 @@ source /percorso/workspace-panoramix/.venv/bin/activate
 export ZEPHYR_BASE=/percorso/workspace-panoramix/zephyr
 # Entra nella repository LoRaX (se non ci sei già)
 cd /percorso/LoRaX
+# Nel caso in cui la compilazione dia errore perchè non riesce a determinare la board dal CMakeList.txt
+west config build.board nucleo_wl55jc
 # Compila l'applicazione per la WL55
 west build wl55-responder
 ```
